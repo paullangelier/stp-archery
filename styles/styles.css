@@ -1,0 +1,175 @@
+* {
+	margin:0; 
+	padding:0;
+}
+
+.center { margin: 0 auto; width: 350px; }
+
+header {
+	background-image: url("../images/headerimage.jpg");
+	border: 1px solid hsla(76, 68%, 57%, 1);
+	margin:10px;
+	color:white;
+}
+
+header a {
+	
+	color:white;
+	margin-left: 20px;
+}
+#topnav a {
+	
+	text-decoration: none;
+	font-size: 2em;
+	font-family:'Lato';
+	color:grey;
+	margin-left:60px;
+	
+}
+#topnav a:nth-child(1){
+	
+	margin-left:15px;
+}
+header h1 {
+	
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: 'Lato';
+}
+header h3 {
+	margin-left:20px;
+	margin-bottom: 20px;
+	font-family:'Lato';
+}
+
+#left {
+	
+	background-color: hsla(149, 100%, 23%, 0.6);
+	float: left;
+	width:15%;
+	height: 510px;
+	margin-top:10px;
+	margin-left:10px;
+	
+}
+
+
+#right {
+	
+	background-color:hsla(60, 100%, 43%, 0.6);
+	height:510px;
+	width:80%;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 235px;
+	position: relative;
+	
+}
+
+#right h1 {
+	
+	/*margin-left:40px;
+	margin-right: 40px;
+	padding-top:20px;
+	width:700px;
+	color:grey;*/
+	
+	text-shadow: 2px 2px black;
+    text-align: center;
+    color: white;
+    font-family:"Impact";
+    font-size: 20px;
+    line-height: 100px;
+}
+
+#right p {
+	
+	text-shadow: 2px 2px black;
+    text-align: center;
+    color: white;
+    font-family:"Impact";
+    font-size: 20px;
+    line-height: 100px;
+}
+
+#left p {
+	
+	text-shadow: 2px 2px black;
+    text-align: center;
+    color: white;
+    font-family:"Impact";
+    font-size: 10px;
+    line-height: 100px;
+}
+
+
+
+
+
+video {
+	
+	margin-top:10px;
+	margin-left: 30%;
+	background-color: hsla(60, 100%, 43%, 0.21);
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+audio {
+	
+	width: 190px;
+	margin-top: 10%;
+}
+
+.grid {
+	
+	margin:50px;
+}
+
+.col {
+  	float: left;
+	background-color: hsla(60, 100%, 43%, 0.21);
+	width:33%;
+	padding-right: 20px;
+}
+.col p {
+	
+	text-shadow: 2px 2px black;
+    text-align: center;
+    color: grey;
+    font-family:"Impact";
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+
+.col:last-of-type {
+  padding-right: 0;
+}
+
+.col img {
+	
+	width:100%;
+	height:300px;
+}
+
+footer {
+	
+	background-color: hsla(149, 100%, 23%, 0.6);
+	
+	margin-left:10px;
+	margin-right:30px;
+	margin-top:5px;
+	color:white;
+}
+
+
+
+
+
+
